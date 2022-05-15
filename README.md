@@ -7,6 +7,12 @@ For this project, we choose to look at U.S. college admission information as it 
 # Database
 For this first segment we are using the csv file as our mock database. With such a large dataset we used Pandas (performed get dummies to data into binary features) to help clean up the data and to start making it a workable file.
 
+![Snap9](https://user-images.githubusercontent.com/96216509/168495047-74a3f4b4-384e-4b3d-8e8b-2d15ff4af00e.png)
+
+![Snap10](https://user-images.githubusercontent.com/96216509/168495054-10187a60-cb9e-4d9f-a5f9-2e8611b5492a.png)
+
+![Snap11](https://user-images.githubusercontent.com/96216509/168495060-ac883602-0535-4f2b-9796-3b1e9b836d57.png)
+
 # Machine Learning Model
 We have chosen to use a clustering model of machine learning (unsupervised machine learning) because the data we are looking at has many features (76 columns after initial preprocessing) without a clear output (`y`).  So many features will make determining the right inputs and the right number of clusters difficult.  As an initial attempt at fitting to machine learning, we created an elbow curve to determine the number of appropriate clusters looking for best `K` in `KMeans`
 
