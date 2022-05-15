@@ -1,5 +1,5 @@
 # Presentation
-U.S. College Admissions
+### U.S. College Admissions
 
 What Colleges/Universities are in the U.S. & how can they be grouped to compare student demoprahics?
 
