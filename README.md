@@ -11,3 +11,5 @@ For this first segment we are using the csv file as our mock database. With such
 # Machine Learning Model
 The provisional learning model we ran allowed us to break down the ouptuts to help us with our predictions.
 
+# Communication
+OUr team has made great use of slack to send messages back and forth with any questions or if we need to setup zoom meetings. We have been meeting almost every night, that we dont have class, via zoom. This allows us to work more collabortively when we can see each other and if something comes up we can address it right away. Each member then submits their work to their branch and then branches are merged to the main project page.
