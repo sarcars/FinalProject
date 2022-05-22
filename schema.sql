@@ -59,9 +59,9 @@ CREATE TABLE Cleaned_CU_w_Latlong (
 	address Varchar NOT NULL,
 	city Varchar NOT NULL,
 	state Varchar NOT NULL,
-	zip numeric NOT NULL,
-	latitude Float NOT NULL,
-	longitude Float NOT NULL,
+	zip varchar NOT NULL,
+	latitude Numeric NOT NULL,
+	longitude numeric NOT NULL,
 	website Varchar NOT NULL,
 	Primary Key (name)
 );
@@ -78,3 +78,83 @@ SELECT * FROM Colleges_main;
 SELECT * FROM colleges_ranked;
 SELECT * FROM Cleaned_CU_w_Latlong;
 SELECT * FROM School_states;
+
+--Add ratio and class percent to lat long table
+SELECT ll.name,
+	ll.address,
+	ll.city,
+	ll.state,
+	ll.zip,
+	ll.latitude,
+	ll.longitude,
+	ll.website,
+	cr.Top10Perc,
+	cr.Top25Perc,
+	cr.SFRatio
+INTO school_loc_info
+FROM Cleaned_CU_w_Latlong as ll
+LEFT JOIN colleges_ranked as cr
+on ll.name=cr.name
+ORDER by ll.name;
+
+SELECT * FROM school_loc_info;
+
+--combine info with colleges_main
+SELECT ss.name,
+	ll.address,
+	ll.city,
+	ll.state,
+	ll.zip,
+	ll.latitude,
+	ll.longitude,
+	ll.website,
+	cr.Top10Perc,
+	cr.Top25Perc,
+	cr.SFRatio,
+	cm.Enrolled_total,
+	cm.average_tuition,
+	cm.Perc_Fresh_SAT_Scores,
+	cm.Perc_Fresh_ACT_Scores,
+	cm.Instate_Price,
+	cm.Outstate_Price,
+	cm.Gradrate_Bachelor_four_years,	
+	cm.Gradrate_Bachelor_five_years,	
+	cm.Gradrate_Bachelor_six_years,
+	cm.Perc_Fresh_FinancialAid,
+	cm.Undergraduate_enrollment
+INTO combined_school_data
+FROM Colleges_main as cm
+JOIN School_states as ss
+on cm.CollegeID=ss.CollegeID
+	LEFT JOIN Cleaned_CU_w_Latlong as ll
+	on ss.name=ll.name
+		LEFT JOIN colleges_ranked as cr
+		on ll.name=cr.name
+ORDER by ss.name;
+
+Select *From combined_school_data;
+
+--Test connecting files with addresses
+SELECT ss.name,
+	ll.address,
+	ll.city,
+	ll.state,
+	ll.zip,
+	ll.latitude,
+	ll.longitude,
+	ll.website,
+	cm.average_tuition,
+	cr.Top10Perc,
+	cr.Top25Perc,
+	cr.SFRatio
+INTO Combined_school_data
+FROM Cleaned_CU_w_Latlong as ll
+LEFT OUTER JOIN School_states as ss
+on ll.name=ss.name
+	LEFT OUter JOIN colleges_ranked as cr
+	on ll.name=cr.name
+		JOIN Colleges_main as cm
+		on cm.CollegeID=ss.CollegeID
+ORDER by ss.name;
+
+SELECT * FROM Combined_school_data;
