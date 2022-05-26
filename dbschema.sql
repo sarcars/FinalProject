@@ -50,7 +50,7 @@ CREATE TABLE Colleges_ranked (
 	Top10Perc float NOT NULL,
 	Top25Perc float NOT NULL,
 	SFRatio float NOT NULL,
-	FOREIGN KEY (Name) References Cleaned_CU_w_LatLong (Name)
+	PRIMARY KEY (Name)
 );
 
 
