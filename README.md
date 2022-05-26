@@ -5,13 +5,14 @@ What Colleges/Universities are in the U.S. & how can they be grouped to compare 
 For this project, we choose to look at U.S. college admission information as it provided considerable datasets. We will be using clustering models to determine the best predictions for our data. In order to conduct this predictive modeling endeavor, we sourced our data from [Kaggle.com](https://www.kaggle.com/datasets/samsonqian/college-admissions) which featured a csv file with information from 2010 to 2014.
 
 # Database
-For this first segment we are using the csv file as our mock database. With such a large dataset we used Pandas (used the `get.dummies` action to convert a couple of data object data columns into multiple binary data columns) to help clean up the data and to start making it a workable file.
+## Segment 1
+In the first segment of this project, we used the main csv file as our mock database. With such a large dataset we used Pandas (used the `get.dummies` action to convert a couple of data object data columns into multiple binary data columns).  We also reduced the number of columns to create a workable file.
 
-![Snap9](https://user-images.githubusercontent.com/96216509/168495047-74a3f4b4-384e-4b3d-8e8b-2d15ff4af00e.png)
+## Segment 2
+In the second segment of this project, the true database was created by paring down the data from each of the original csv files (using Jupyter Notebook), exporting to new csv files and merging the files using multiple joins in pgAdmin. The database was then pushed to AWS. 
 
-![Snap10](https://user-images.githubusercontent.com/96216509/168495054-10187a60-cb9e-4d9f-a5f9-2e8611b5492a.png)
+![ERD](images/QuickDBD-Free%20Diagram.png)
 
-![Snap11](https://user-images.githubusercontent.com/96216509/168495060-ac883602-0535-4f2b-9796-3b1e9b836d57.png)
 
 # Machine Learning Model
 We have chosen to use a clustering model of machine learning (unsupervised machine learning) because the data we are looking at has many features (76 columns after initial preprocessing) without a clear output (`y`).  So many features will make determining the right inputs and the right number of clusters difficult.  As an initial attempt at fitting to machine learning, we created an elbow curve to determine the number of appropriate clusters looking for best `K` in `KMeans`
