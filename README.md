@@ -11,7 +11,7 @@ In the first segment of this project, we used the main csv file as our mock data
 ## Segment 2
 In the second segment of this project, the true database was created by paring down the data from each of the original csv files (using Jupyter Notebook), exporting to new csv files and merging the files using multiple joins in pgAdmin. The database was then pushed to AWS. 
 
-![ERD](images/QuickDBD-Free%20Diagram.png)
+![ERD](https://github.com/sarcars/FinalProject/blob/main/Images/QuickDBD-Free%20Diagram.png))
 
 
 # Machine Learning Model
