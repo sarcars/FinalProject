@@ -1,0 +1,778 @@
+Name,Top10perc,Top25perc,SFRatio
+Abilene Christian University,23,52,18.1
+Adelphi University,16,29,12.2
+Adrian College,22,50,12.9
+Agnes Scott College,60,89,7.7
+Alaska Pacific University,16,44,11.9
+Albertson College,38,62,9.4
+Albertus Magnus College,17,45,11.5
+Albion College,37,68,13.7
+Albright College,30,63,11.3
+Alderson-Broaddus College,21,44,11.5
+Alfred University,37,75,11.3
+Allegheny College,44,77,9.9
+Allentown Coll. Of St. Francis De Sales,38,64,13.3
+Alma College,44,73,15.3
+Alverno College,23,46,11.1
+American International College,9,22,14.7
+Amherst College,83,96,8.4
+Anderson University,19,40,12.1
+Andrews University,14,23,11.5
+Angelo State University,24,54,23.1
+Antioch University,25,44,11.3
+Appalachian State University,20,63,18.3
+Aquinas College,20,51,12.7
+Arizona State University Main Campus,24,49,18.9
+Arkansas College (Lyon College),46,74,12.6
+Arkansas Tech University,12,52,19.6
+Assumption College,23,59,13.8
+Auburn University-Main Campus,25,57,16.7
+Augsburg College,12,30,12.8
+Augustana College Il,36,69,12.7
+Augustana College,21,58,10.4
+Austin College,42,74,13.0
+Averett College,16,40,22.4
+Baker University,21,47,11.0
+Baldwin-Wallace College,30,61,17.6
+Barat College,15,36,9.7
+Bard College,50,85,10.4
+Barnard College,53,95,10.3
+Barry University,18,45,12.6
+Baylor University,34,66,18.5
+Beaver College,23,56,12.2
+Bellarmine College,39,63,13.1
+Belmont Abbey College,17,36,13.2
+Belmont University,28,67,11.1
+Beloit College,26,54,11.1
+Bemidji State University,12,36,19.6
+Benedictine College,14,24,14.1
+Bennington College,25,53,10.1
+Bentley College,20,60,17.5
+Berry College,37,68,16.3
+Bethany College,16,41,11.6
+Bethel College Ks,19,42,8.8
+Bethel College,11,28,11.7
+Bethune Cookman College,12,30,13.8
+Birmingham-Southern College,67,88,14.0
+Blackburn College,25,55,14.3
+Bloomsburg Univ. Of Pennsylvania,15,55,18.0
+Bluefield College,15,30,17.8
+Bluffton College,20,50,13.3
+Boston University,45,80,11.9
+Bowdoin College,76,100,11.2
+Bowling Green State University,14,45,21.1
+Bradford College,5,36,10.2
+Bradley University,30,58,14.4
+Brandeis University,48,77,9.8
+Brenau University,12,41,13.7
+Brewton-Parker College,10,26,12.6
+Briar Cliff College,16,44,13.1
+Bridgewater College,22,53,13.2
+Brigham Young University At Provo,48,82,20.5
+Brown University,87,95,7.6
+Bryn Mawr College,71,95,12.3
+Bucknell University,49,85,14.2
+Buena Vista College,32,70,8.8
+Butler University,40,68,10.9
+Cabrini College,8,28,16.5
+Caldwell College,17,42,13.9
+California Lutheran University,23,52,12.4
+California Polytechnic-San Luis,47,73,19.8
+California State University At Fresno,5,60,21.2
+Calvin College,29,56,14.8
+Campbell University,20,54,21.8
+Campbellsville College,25,55,17.7
+Canisius College,16,34,14.6
+Capital University,34,66,12.1
+Capitol College,10,52,12.1
+Carleton College,75,93,10.4
+Carnegie Mellon University,60,89,9.2
+Carroll College,19,55,17.8
+Carson-Newman College,27,62,13.6
+Carthage College,20,43,15.9
+Case Western Reserve University,71,93,2.9
+Castleton State College,9,22,14.7
+Catawba College,13,34,13.5
+Catholic University Of America,24,49,9.3
+Cazenovia College,9,35,14.3
+Cedar Crest College,25,58,11.7
+Cedarville College,25,55,15.3
+Centenary College,12,46,9.5
+Centenary College Of Louisiana,35,55,11.3
+Center For Creative Studies,1,20,6.8
+Central College,31,65,13.5
+Central Connecticut State University,6,24,16.7
+Central Missouri State University,10,35,19.7
+Central Washington University,8,65,18.1
+Central Wesleyan College,8,29,15.2
+Centre College,55,82,11.4
+Chapman University,23,48,12.8
+Chatham College,28,56,9.3
+Chestnut Hill College,25,64,8.3
+Christendom College,33,71,9.3
+Christian Brothers University,16,42,11.1
+Christopher Newport University,3,37,21.2
+Claflin College,21,47,16.9
+Claremont Mckenna College,71,93,9.6
+Clark University,30,61,10.5
+Clarke College,14,45,11.0
+Clarkson University,35,68,15.8
+Clemson University,37,65,18.0
+Clinch Valley Coll. Of  The Univ. Of Virginia,15,30,18.1
+Coe College,29,60,12.7
+Coker College,15,47,12.1
+Colby College,58,84,10.2
+Colgate University,46,75,10.5
+College Misericordia,29,58,12.9
+College Of Charleston,22,55,17.2
+College Of Mount St. Joseph,14,41,11.1
+College Of Mount St. Vincent,23,46,11.9
+College Of Notre Dame,11,42,10.4
+College Of Notre Dame Of Maryland,35,61,11.5
+College Of Saint Benedict,29,62,13.1
+College Of Saint Catherine,23,51,11.5
+College Of Saint Elizabeth,34,53,11.4
+College Of Saint Rose,23,57,14.3
+College Of Santa Fe,16,42,14.0
+College Of St. Joseph,12,21,9.5
+College Of St. Scholastica,29,60,11.6
+College Of The Holy Cross,70,95,11.3
+College Of William And Mary,68,88,12.1
+College Of Wooster,29,65,11.1
+Colorado College,56,87,11.3
+Colorado State University,29,65,19.2
+Columbia College Mo,10,28,15.3
+Columbia College,21,67,14.7
+Columbia University,78,96,5.9
+Concordia College At St. Paul,13,29,12.8
+Concordia Lutheran College,16,34,12.1
+Concordia University Ca,30,75,13.1
+Concordia University,22,56,12.1
+Connecticut College,42,93,10.7
+Converse College,35,70,10.2
+Cornell College,33,68,12.2
+Creighton University,30,60,6.5
+Culver-Stockton College,24,55,14.1
+Cumberland College,26,47,13.0
+D'Youville College,18,47,14.6
+Dana College,10,36,12.6
+Daniel Webster College,12,30,22.2
+Dartmouth College,87,99,4.7
+Davidson College,77,96,12.0
+Defiance College,10,26,12.8
+Delta State University,15,48,17.1
+Denison University,32,60,11.6
+Depauw University,50,80,11.1
+Dickinson College,31,68,11.2
+Dickinson State University,10,30,16.5
+Dillard University,41,88,14.1
+Doane College,20,47,15.1
+Dominican College Of Blauvelt,4,19,12.7
+Dordt College,25,50,12.5
+Dowling College,9,33,12.4
+Drake University,34,65,15.0
+Drew University,56,84,10.2
+Drury College,33,66,13.2
+Duke University,90,98,5.0
+Earlham College,35,63,10.6
+East Carolina University,14,44,13.2
+East Tennessee State University,15,36,14.0
+East Texas Baptist University,10,36,15.7
+Eastern College,16,42,13.6
+Eastern Connecticut State University,14,50,16.9
+Eastern Illinois University,12,38,16.2
+Eastern Mennonite College,19,48,11.4
+Eastern Nazarene College,17,40,17.3
+Eckerd College,33,65,12.8
+Elizabethtown College,36,70,12.8
+Elmira College,27,50,21.5
+Elms College,23,46,11.3
+Elon College,11,39,18.9
+Embry Riddle Aeronautical University,14,40,16.5
+Emory & Henry College,30,60,13.9
+Emory University,76,97,5.0
+Emporia State University,43,79,19.3
+Erskine College,47,74,13.5
+Eureka College,36,56,10.6
+Evergreen State College,14,50,18.1
+Fairfield University,30,66,15.1
+Fayetteville State University,1,16,15.1
+Ferrum College,12,36,12.5
+Flagler College,18,52,18.1
+Florida Institute Of Technology,39,74,10.6
+Florida International University,42,89,13.9
+Florida Southern College,20,44,17.4
+Florida State University,50,90,23.1
+Fontbonne College,16,49,21.5
+Fordham University,30,55,14.4
+Fort Lewis College,16,35,19.1
+Francis Marion University,13,38,19.1
+Franciscan University Of Steubenville,22,49,14.9
+Franklin College,29,72,12.5
+Franklin Pierce College,3,14,17.6
+Freed-Hardeman University,20,54,16.1
+Fresno Pacific College,51,87,10.5
+Furman University,56,82,13.5
+Gannon University,24,57,13.3
+Gardner Webb University,18,36,15.2
+Geneva College,19,39,20.1
+George Fox College,27,52,13.5
+George Mason University,17,29,19.3
+George Washington University,38,71,7.6
+Georgetown College,30,55,13.3
+Georgetown University,71,93,7.2
+Georgia Institute Of Technology,89,99,19.3
+Georgia State University,9,24,19.0
+Georgian Court College,12,52,12.2
+Gettysburg College,42,78,12.1
+Goldey Beacom College,10,27,27.6
+Gonzaga University,31,67,14.7
+Gordon College,25,54,14.2
+Goshen College,26,51,9.9
+Goucher College,40,64,9.2
+Grace College And Seminary,18,46,15.3
+Graceland College,14,41,23.6
+Grand Valley State University,20,60,20.6
+Green Mountain College,7,20,14.0
+Greensboro College,10,31,13.0
+Greenville College,20,46,14.3
+Grinnell College,56,91,9.5
+Grove City College,57,88,18.4
+Guilford College,18,44,15.6
+Gustavus Adolphus College,36,72,12.5
+Gwynedd Mercy College,30,56,7.8
+Hamilton College,40,82,9.6
+Hamline University,34,73,13.0
+Hampden - Sydney College,20,40,13.3
+Hampton University,25,63,14.0
+Hanover College,33,65,10.6
+Hardin-Simmons University,16,40,13.7
+Harding University,35,75,17.7
+Hartwick College,22,49,12.3
+Harvard University,90,100,9.9
+Harvey Mudd College,95,100,8.2
+Hastings College,22,52,13.0
+Hendrix College,52,87,13.1
+Hillsdale College,35,66,12.0
+Hiram College,37,66,10.6
+Hobart And William Smith Colleges,25,53,12.1
+Hofstra University,25,63,13.9
+Hollins College,26,58,11.1
+Hood College,36,64,14.4
+Hope College,37,69,12.5
+Houghton College,30,70,15.0
+Huntingdon College,26,47,11.4
+Huntington College,20,46,11.8
+Huron University,3,9,12.9
+Husson College,10,30,22.0
+Illinois Benedictine College,22,47,11.6
+Illinois College,28,63,15.6
+Illinois Institute Of Technology,42,77,12.3
+Illinois State University,10,35,21.0
+Illinois Wesleyan University,55,86,12.9
+Immaculata College,16,44,11.2
+Incarnate Word College,16,49,11.4
+Indiana State University,10,31,16.6
+Indiana University At Bloomington,25,72,21.3
+Indiana Wesleyan University,20,48,39.8
+Iona College,13,33,16.0
+Iowa State University,26,59,19.2
+Ithaca College,23,52,11.5
+James Madison University,32,72,17.9
+Jamestown College,14,41,17.0
+Jersey City State College,10,30,14.9
+John Brown University,24,53,13.3
+John Carroll University,27,57,14.5
+Johns Hopkins University,75,94,3.3
+Johnson State College,3,13,14.4
+Judson College,10,30,10.6
+Juniata College,36,55,12.7
+Kansas State University,25,55,18.5
+Kansas Wesleyan University,16,40,12.4
+Keene State College,5,19,16.1
+Kentucky Wesleyan College,20,49,11.3
+Kenyon College,44,75,11.1
+Keuka College,10,43,13.3
+King'S College,20,45,15.6
+King College,34,65,10.7
+Knox College,48,77,12.7
+La Roche College,10,41,14.2
+La Salle University,20,56,15.1
+Lafayette College,36,59,10.5
+Lagrange College,15,35,12.5
+Lake Forest College,31,70,10.7
+Lakeland College,24,47,17.2
+Lamar University,10,27,18.4
+Lambuth University,15,35,16.1
+Lander University,9,33,17.0
+Lawrence University,50,77,10.1
+Le Moyne College,21,76,13.3
+Lebanon Valley College,28,56,12.3
+Lehigh University,40,84,12.5
+Lenoir-Rhyne College,25,46,12.0
+Lesley College,12,33,27.8
+Letourneau University,29,54,20.8
+Lewis And Clark College,35,64,12.3
+Lewis University,12,31,14.3
+Lincoln Memorial University,21,55,14.6
+Lincoln University,15,41,12.6
+Lindenwood College,6,33,24.1
+Linfield College,48,72,17.8
+Livingstone College,22,47,10.4
+Lock Haven University Of Pennsylvania,17,41,16.1
+Longwood College,12,47,18.4
+Loras College,20,39,14.2
+Louisiana College,33,61,10.5
+Louisiana State University At Baton Rouge,29,57,15.9
+Louisiana Tech University,22,45,20.0
+Loyola College,25,54,14.7
+Loyola Marymount University,42,64,14.2
+Loyola University,24,80,11.7
+Loyola University Chicago,25,55,6.2
+Luther College,38,72,13.8
+Lycoming College,16,37,14.0
+Lynchburg College,3,21,12.4
+Lyndon State College,6,20,12.6
+Macalester College,56,86,11.9
+Macmurray College,12,29,10.8
+Malone College,21,46,17.6
+Manchester College,23,63,11.8
+Manhattan College,20,63,13.6
+Manhattanville College,21,54,11.3
+Mankato State University,9,29,19.0
+Marian College Of Fond Du Lac,15,41,8.4
+Marietta College,27,60,13.2
+Marist College,12,31,17.6
+Marquette University,36,71,13.5
+Marshall University,14,60,16.6
+Mary Baldwin College,26,52,6.8
+Mary Washington College,39,78,17.6
+Marymount College Tarrytown,9,34,10.3
+Marymount Manhattan College,21,30,11.7
+Marymount University,10,30,10.6
+Maryville College,26,52,11.1
+Maryville University,26,51,13.1
+Marywood College,13,51,11.8
+Massachusetts Institute Of Technology,96,99,10.1
+Mayville State University,5,12,15.7
+Mckendree College,16,43,17.7
+Mcmurry University,25,50,11.0
+Mcpherson College,11,32,9.8
+Mercer University,37,70,9.2
+Mercyhurst College,15,40,16.7
+Meredith College,25,58,13.9
+Merrimack College,18,36,16.8
+Mesa State College,6,18,28.8
+Messiah College,30,64,14.1
+Miami University At Oxford,35,39,17.6
+Michigan State University,23,57,14.0
+Michigan Technological University,42,77,17.0
+Midamerica Nazarene College,15,36,15.4
+Millersville University Of Penn.,22,60,16.8
+Milligan College,26,52,12.0
+Millikin University,29,62,11.4
+Millsaps College,32,61,12.7
+Milwaukee School Of Engineering,36,69,16.7
+Mississippi College,36,57,16.5
+Mississippi State University,18,57,15.9
+Mississippi University For Women,19,46,15.8
+Missouri Southern State College,13,50,20.3
+Missouri Valley College,5,35,17.4
+Monmouth College Il,28,57,11.6
+Monmouth College,14,34,14.2
+Montana College Of Mineral Sci. & Tech.,45,72,16.4
+Montana State University,15,42,17.6
+Montclair State University,19,53,21.5
+Montreat-Anderson College,10,24,11.1
+Moorhead State University,12,37,18.1
+Moravian College,23,58,15.2
+Morehouse College,41,66,17.8
+Morningside College,16,36,13.0
+Morris College,2,13,18.6
+Mount Holyoke College,47,79,9.0
+Mount Marty College,17,37,11.7
+Mount Mary College,12,32,10.7
+Mount Mercy College,20,49,11.3
+Mount Saint Clare College,16,33,13.6
+Mount Saint Mary'S College,15,36,12.8
+Mount Saint Mary College,14,48,15.3
+Mount St. Mary'S College,37,90,11.9
+Mount Union College,26,61,16.7
+Mount Vernon Nazarene College,18,36,19.8
+Muhlenberg College,30,61,12.8
+Murray State University,29,55,20.2
+Muskingum College,24,46,13.4
+National-Louis University,23,48,18.3
+Nazareth College Of Rochester,36,68,13.6
+New Jersey Institute Of Technology,27,62,13.5
+New Mexico Institute Of Mining And Tech.,40,73,13.7
+New York University,70,86,7.8
+Newberry College,14,36,11.4
+Niagara University,65,99,14.2
+North Adams State College,1,19,14.2
+North Carolina A. & T. State University,12,33,16.7
+North Carolina State University At Raleigh,39,78,17.5
+North Carolina Wesleyan College,7,24,12.7
+North Central College,30,64,16.4
+North Dakota State University,13,47,17.0
+North Park College,19,39,13.1
+Northeast Missouri State University,36,72,15.7
+Northeastern University,16,42,12.9
+Northern Arizona University,23,48,21.7
+Northern Illinois University,12,37,17.3
+Northwest Missouri State University,8,29,21.7
+Northwest Nazarene College,29,52,14.8
+Northwestern College,22,56,14.9
+Northwestern University,85,98,6.8
+Norwich University,8,29,13.1
+Notre Dame College,15,37,12.1
+Oakland University,16,56,19.7
+Oberlin College,50,89,10.1
+Occidental College,52,81,10.5
+Oglethorpe University,56,87,13.1
+Ohio Northern University,35,62,14.5
+Ohio University,21,54,20.4
+Ohio Wesleyan University,36,65,12.1
+Oklahoma Baptist University,35,59,15.1
+Oklahoma Christian University,22,44,16.2
+Oklahoma State University,29,57,15.3
+Otterbein College,26,57,13.9
+Ouachita Baptist University,31,73,13.3
+Our Lady Of The Lake University,22,46,14.9
+Pace University,37,70,13.8
+Pacific Lutheran University,31,68,11.0
+Pacific Union College,20,48,12.3
+Pacific University,41,71,10.9
+Pembroke State University,14,34,15.0
+Pennsylvania State Univ. Main Campus,48,93,18.1
+Pepperdine University,86,96,11.6
+Peru State College,10,40,20.1
+Pfeiffer College,11,25,12.2
+Philadelphia Coll. Of Textiles And Sci.,19,42,12.9
+Phillips University,19,50,11.6
+Piedmont College,20,40,13.2
+Pikeville College,28,48,13.4
+Pitzer College,37,73,10.4
+Point Loma Nazarene College,20,43,16.1
+Point Park College,7,38,14.5
+Polytechnic University,58,89,10.4
+Prairie View A. And M. University,10,22,19.4
+Presbyterian College,34,63,13.4
+Princeton University,90,98,8.4
+Providence College,20,55,18.4
+Purdue University At West Lafayette,29,60,18.2
+Queens College,32,62,14.0
+Quincy University,22,66,16.3
+Quinnipiac College,17,45,12.0
+Radford University,15,37,19.6
+Ramapo College Of New Jersey,6,29,17.8
+Randolph-Macon College,21,46,10.7
+Randolph-Macon Woman'S College,35,66,9.2
+Reed College,47,80,11.8
+Regis College,18,38,10.3
+Rensselaer Polytechnic Institute,53,82,15.4
+Rhodes College,58,82,10.8
+Rider University,16,31,12.3
+Ripon College,28,52,9.4
+Rivier College,6,28,12.2
+Roanoke College,27,54,13.0
+Rockhurst College,22,50,10.7
+Rocky Mountain College,11,31,11.3
+Roger Williams University,10,20,16.4
+Rollins College,31,55,13.3
+Rosary College,28,53,12.9
+Rowan College Of New Jersey,21,70,22.1
+Rutgers At New Brunswick,36,79,19.5
+Rutgers State University At Camden,27,79,18.6
+Rutgers State University At Newark,26,62,17.4
+Sacred Heart University,19,51,14.8
+Saint Ambrose University,12,48,14.1
+Saint Anselm College,15,40,14.5
+Saint Cloud State University,10,34,18.9
+Saint Francis College In,13,36,12.5
+Saint Francis College,21,45,19.3
+Saint John'S University,18,45,12.0
+Saint Joseph'S College In,24,42,14.8
+Saint Joseph'S College,12,33,27.2
+Saint Joseph'S University,39,71,17.4
+Saint Joseph College,20,52,11.2
+Saint Louis University,44,67,4.6
+Saint Mary'S College,26,60,9.9
+Saint Mary'S College Of Minnesota,14,35,18.8
+Saint Mary-Of-The-Woods College,23,50,10.2
+Saint Michael'S College,16,64,14.5
+Saint Olaf College,38,73,10.0
+Saint Peter'S College,23,38,12.1
+Saint Vincent College,19,35,12.3
+Saint Xavier University,15,65,13.7
+Salem-Teikyo University,23,52,13.0
+Salem College,28,69,11.2
+Salisbury State University,20,52,17.9
+Samford University,34,76,14.7
+San Diego State University,20,70,19.5
+Santa Clara University,40,73,13.9
+Sarah Lawrence College,57,82,6.1
+Savannah Coll. Of Art And Design,20,65,16.1
+Schreiner College,19,51,11.8
+Scripps College,60,83,8.2
+Seattle Pacific University,42,82,16.8
+Seattle University,28,72,12.2
+Seton Hall University,16,36,14.4
+Seton Hill College,24,56,11.2
+Shippensburg University Of Penn.,14,53,18.8
+Shorter College,23,70,13.2
+Siena College,24,68,14.1
+Siena Heights College,10,31,7.2
+Simmons College,23,53,8.9
+Simpson College,27,57,15.8
+Sioux Falls College,13,35,14.8
+Skidmore College,25,62,12.7
+Smith College,51,88,10.3
+South Dakota State University,13,37,15.0
+Southeast Missouri State University,18,43,17.1
+Southeastern Oklahoma State Univ.,20,50,19.6
+Southern California College,18,38,18.6
+Southern Illinois University At Edwardsville,13,40,16.5
+Southern Methodist University,41,69,13.5
+Southwest Baptist University,12,32,15.9
+Southwest Missouri State University,15,37,19.9
+Southwest State University,13,33,16.5
+Southwestern Adventist College,11,27,13.0
+Southwestern College,28,66,11.8
+Southwestern University,44,77,11.3
+Spalding University,10,45,10.6
+Spelman College,47,83,12.5
+Spring Arbor College,15,32,15.4
+St. Bonaventure University,13,45,17.7
+St. John'S College,31,51,7.2
+St. John Fisher College,19,51,14.5
+St. Lawrence University,31,56,11.5
+St. Martin'S College,5,25,14.5
+St. Mary'S College Of California,36,80,16.1
+St. Mary'S College Of Maryland,42,73,11.6
+St. Mary'S University Of San Antonio,33,60,16.2
+St. Norbert College,30,56,15.1
+St. Paul'S College,8,17,14.0
+St. Thomas Aquinas College,10,27,16.1
+Stephens College,17,34,10.9
+Stetson University,37,69,12.5
+Stevens Institute Of Technology,51,93,19.0
+Stockton College Of New Jersey,23,65,19.5
+Stonehill College,25,69,13.0
+Suny At Albany,16,61,17.4
+Suny At Binghamton,60,94,18.0
+Suny At Buffalo,36,100,13.6
+Suny At Stony Brook,27,66,10.5
+Suny College  At Brockport,7,34,19.0
+Suny College  At Oswego,17,70,22.0
+Suny College At Buffalo,8,29,18.7
+Suny College At Cortland,6,40,17.8
+Suny College At Fredonia,13,48,16.3
+Suny College At Geneseo,56,93,19.1
+Suny College At New Paltz,19,53,15.3
+Suny College At Plattsburgh,9,40,17.9
+Suny College At Potsdam,16,51,15.1
+Suny College At Purchase,5,33,14.9
+Susquehanna University,27,59,13.9
+Sweet Briar College,36,68,6.5
+Syracuse University,28,67,11.3
+Tabor College,19,41,10.0
+Talladega College,30,60,15.5
+Taylor University,41,80,14.2
+Tennessee Wesleyan College,7,29,8.9
+Texas A&M Univ. At College Station,49,85,23.1
+Texas A&M University At Galveston,22,47,17.4
+Texas Christian University,33,64,14.8
+Texas Lutheran College,27,57,13.8
+Texas Southern University,15,85,18.2
+Texas Wesleyan University,19,44,14.5
+The Citadel,12,36,17.1
+Thiel College,15,31,11.6
+Tiffin University,5,21,19.0
+Transylvania University,57,81,12.1
+Trenton State College,55,94,14.4
+Tri-State University,14,40,12.8
+Trinity College Ct,46,84,10.4
+Trinity College Dc,19,49,8.3
+Trinity College Vt,16,41,10.4
+Trinity University,62,93,9.6
+Tulane University,47,75,9.1
+Tusculum College,12,34,21.9
+Tuskegee University,20,59,12.2
+Union College Ky,9,45,14.1
+Union College Ny,49,84,11.5
+Univ. Of Wisconsin At Oshkosh,14,48,19.2
+University Of Alabama At Birmingham,24,35,6.7
+University Of Arkansas At Fayetteville,25,65,14.8
+University Of California At Berkeley,95,100,15.8
+University Of California At Irvine,85,100,16.1
+University Of Central Florida,25,60,22.2
+University Of Charleston,22,43,2.5
+University Of Chicago,68,94,5.3
+University Of Cincinnati,26,57,10.8
+University Of Connecticut At Storrs,23,63,16.0
+University Of Dallas,44,74,13.4
+University Of Dayton,26,51,14.8
+University Of Delaware,22,57,18.3
+University Of Denver,29,60,15.9
+University Of Detroit Mercy,24,50,13.5
+University Of Dubuque,11,39,16.5
+University Of Evansville,35,67,15.8
+University Of Florida,54,85,13.4
+University Of Georgia,43,79,14.7
+University Of Hartford,11,26,10.7
+University Of Hawaii At Manoa,36,69,11.8
+University Of Illinois - Urbana,52,88,17.4
+University Of Illinois At Chicago,22,50,10.0
+University Of Indianapolis,26,51,11.1
+University Of Kansas,25,50,13.7
+University Of La Verne,16,38,14.1
+University Of Louisville,16,33,11.1
+University Of Maine At Farmington,20,48,15.9
+University Of Maine At Machias,17,45,15.1
+University Of Maine At Presque Isle,10,40,15.2
+University Of Maryland At Baltimore County,27,57,18.4
+University Of Maryland At College Park,22,53,18.1
+University Of Massachusetts At Amherst,12,39,16.7
+University Of Massachusetts At Dartmouth,10,37,15.0
+University Of Miami,42,69,5.9
+University Of Michigan At Ann Arbor,66,92,11.5
+University Of Minnesota At Duluth,15,45,19.0
+University Of Minnesota At Morris,56,86,14.6
+University Of Minnesota Twin Cities,26,55,12.2
+University Of Mississippi,26,47,20.3
+University Of Missouri At Columbia,32,62,12.7
+University Of Missouri At Rolla,49,77,14.4
+University Of Missouri At Saint Louis,18,54,13.4
+University Of Mobile,17,54,16.6
+University Of Montevallo,18,78,18.9
+University Of Nebraska At Lincoln,33,63,15.1
+University Of New England,19,54,11.4
+University Of New Hampshire,24,62,17.5
+University Of North Carolina At Asheville,32,74,13.0
+University Of North Carolina At Chapel Hill,75,92,8.9
+University Of North Carolina At Charlotte,19,62,16.8
+University Of North Carolina At Greensboro,15,44,15.5
+University Of North Carolina At Wilmington,15,67,19.1
+University Of North Dakota,20,54,15.9
+University Of North Florida,44,85,17.8
+University Of North Texas,23,51,22.6
+University Of Northern Colorado,12,37,21.5
+University Of Northern Iowa,18,52,16.3
+University Of Notre Dame,79,96,13.1
+University Of Oklahoma,32,63,11.5
+University Of Oregon,25,61,19.7
+University Of Pennsylvania,85,100,6.3
+University Of Pittsburgh-Main Campus,25,59,7.8
+University Of Portland,27,58,13.2
+University Of Puget Sound,51,83,15.0
+University Of Rhode Island,12,40,16.6
+University Of Richmond,46,72,11.7
+University Of Rochester,56,75,5.9
+University Of San Diego,40,70,15.6
+University Of San Francisco,23,48,13.6
+University Of Sci. And Arts Of Oklahoma,21,43,23.6
+University Of Scranton,29,60,14.1
+University Of South Carolina At Aiken,14,24,14.8
+University Of South Carolina At Columbia,30,66,16.9
+University Of South Florida,29,63,17.0
+University Of Southern California,45,71,11.4
+University Of Southern Colorado,10,34,19.4
+University Of Southern Indiana,8,25,22.0
+University Of Southern Mississippi,20,50,18.7
+University Of St. Thomas Mn,26,53,13.8
+University Of St. Thomas Tx,45,77,12.6
+University Of Tennessee At Knoxville,27,53,16.5
+University Of Texas At Arlington,19,43,21.0
+University Of Texas At Austin,48,85,19.7
+University Of Texas At San Antonio,17,46,25.3
+University Of The Arts,5,22,7.5
+University Of The Pacific,36,66,11.2
+University Of The South,46,83,10.3
+University Of Tulsa,41,68,11.5
+University Of Utah,27,53,12.8
+University Of Vermont,18,51,9.9
+University Of Virginia,74,95,9.5
+University Of Washington,40,81,9.0
+University Of West Florida,20,57,23.4
+University Of Wisconsin-Stout,9,32,21.0
+University Of Wisconsin-Superior,14,53,15.2
+University Of Wisconsin-Whitewater,12,38,23.1
+University Of Wisconsin At Green Bay,17,50,22.2
+University Of Wisconsin At Madison,36,80,11.5
+University Of Wisconsin At Milwaukee,12,37,15.9
+University Of Wyoming,23,46,15.1
+Upper Iowa University,10,35,17.4
+Ursinus College,44,77,11.6
+Ursuline College,21,47,10.5
+Valley City State University,5,27,14.9
+Valparaiso University,49,81,14.2
+Vanderbilt University,71,92,5.8
+Vassar College,53,87,9.7
+Villanova University,30,68,13.4
+Virginia Commonwealth University,18,45,8.7
+Virginia State University,2,30,16.0
+Virginia Tech,29,53,13.8
+Virginia Union University,19,59,13.7
+Virginia Wesleyan College,20,49,15.7
+Viterbo College,17,43,10.7
+Voorhees College,10,30,22.9
+Wabash College,41,76,9.9
+Wagner College,10,44,13.2
+Wake Forest University,75,88,4.3
+Walsh University,27,92,11.3
+Warren Wilson College,25,49,11.4
+Wartburg College,34,66,12.4
+Washington And Jefferson College,42,64,12.1
+Washington And Lee University,68,93,9.6
+Washington College,31,60,11.2
+Washington State University,31,70,16.9
+Washington University,62,93,3.9
+Wayne State College,6,21,20.3
+Waynesburg College,12,30,16.2
+Webber College,5,27,15.1
+Webster University,17,44,20.6
+Wellesley College,80,96,10.6
+Wells College,40,85,8.3
+Wentworth Institute Of Technology,6,25,15.4
+Wesley College,10,25,14.4
+Wesleyan University,60,86,12.1
+West Chester University Of Penn.,11,51,15.3
+West Liberty State College,12,25,16.3
+West Virginia Wesleyan College,28,55,16.4
+Western Carolina University,11,31,14.6
+Western Maryland College,31,50,12.5
+Western Michigan University,24,53,24.7
+Western New England College,7,21,15.4
+Western State College Of Colorado,7,24,19.4
+Western Washington University,30,71,22.7
+Westfield State College,3,20,15.7
+Westminster College Mo,20,43,12.5
+Westminster College,29,58,12.5
+Westminster College Of Salt Lake City,21,60,10.5
+Westmont College,42,72,14.9
+Wheaton College Il,56,84,12.7
+Westminster College Pa,21,55,13.2
+Wheeling Jesuit College,15,49,14.1
+Whitman College,45,77,10.5
+Whittier College,35,63,13.6
+Whitworth College,43,70,16.9
+Widener University,24,64,12.6
+Wilkes University,15,36,13.3
+Willamette University,49,80,13.3
+William Jewell College,32,67,11.2
+William Woods University,17,39,12.9
+Williams College,81,96,9.0
+Wilson College,16,50,8.3
+Wingate College,10,34,13.9
+Winona State University,20,45,20.2
+Winthrop University,24,61,12.8
+Wisconsin Lutheran College,17,41,8.5
+Wittenberg University,42,68,12.8
+Wofford College,51,83,15.3
+Worcester Polytechnic Institute,49,86,15.2
+Worcester State College,4,26,21.0
+Xavier University,24,47,13.3
+Xavier University Of Louisiana,34,61,14.4
+Yale University,95,99,5.8
+York College Of Pennsylvania,28,63,18.1
