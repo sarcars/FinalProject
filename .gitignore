@@ -1,3 +1,9 @@
+# csv files
+*.csv
+
+# jupyter notebook file to ignore
+colleges_PCA.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
