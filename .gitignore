@@ -1,8 +1,23 @@
+<<<<<<< HEAD
 # csv files
 *.csv
 
 # jupyter notebook file to ignore
 colleges_PCA.ipynb
+=======
+#csv files
+*.csv
+
+# specific jupyter notebooks
+May25MachineModel.ipynb
+MachineModelSplit.ipynb
+machine_model2.ipynb
+machine_model2_Copy1.ipynb
+May25MachineModelPredictions.ipynb
+May25MachineModelScaling.ipynb
+
+
+>>>>>>> SC_machine_learning
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
