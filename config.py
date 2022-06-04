@@ -1,1 +1,0 @@
-db_password = "UMDV&abc2021"
