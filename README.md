@@ -64,16 +64,14 @@ Instead, we focused on testing the accurracy of the clusters. In order to  To de
 There were a few different results, but as 4 clusters was consistently the best result in all methods, our next step was to see what 4 clusters showed us using different variables for x and y (file `ModelwDifClusters.ipynb`)
 
 # Dashboard
-- [x] Storyboard on Google Slides has been created https://docs.google.com/presentation/d/1g5CjUa0wOmDh8gMe49bHFKTHKxUScElyYGXSOHSmzww/edit?usp=sharing
-- [ ] Description of the tool(s) that will be used to create final dashboard
-- [ ] Description of interactive element(s)  
+Dasboard in Tableau
+https://public.tableau.com/app/profile/laura.zacharda.jones/viz/Colleges_Clustered_Data_6-3-22/Story1?publish=yes
 
 
 
+# Presentation
+Presentation is in google slides doc
+https://docs.google.com/presentation/d/1g5CjUa0wOmDh8gMe49bHFKTHKxUScElyYGXSOHSmzww/edit?usp=sharing
 
-# Communication
-## Segment 1 
-Our team has made great use of slack to send messages back and forth with any questions or if we need to setup zoom meetings. We have been meeting almost every night, that we don’t have class, via zoom. This allows us to work more collaboratively when we can see each other and if something comes up we can address it right away. Each member then submits their work to their branch and then branches are merged to the main project page.
-## Segment 2
-Our team continues to shrink and are now down to just two members.  We have continued to use Slack and Zoom to keep each other informed of where we are at and where we are running into problems.
+
 
