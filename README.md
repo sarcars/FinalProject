@@ -1,5 +1,23 @@
 # FinalProject
 
+### GitHub 
+
+#### files
+
+
+#### folders
+
+- **MachineLearning**: Pandas notebooks showing 
+  - Splitting `Split_Cluster_Evaluation.ipynb`
+  - Evaluation of Clusters for Full Model `Cluster_Evaluation.ipynb` 
+  - Split Model (both test and train recombined) `Split_Cluster_Evaluation.ipynb` 
+  - and Training `ModelTraining_Cluster_Evaluation.ipynb`
+
+
+
+
+
+
 # Presentation
 ### U.S. College Admissions
 What Colleges/Universities are in the U.S. & how can they be grouped to compare student demographics?
