@@ -36,13 +36,8 @@ In the second segment of this project, the true database was created by paring d
 
 # Machine Learning Model
 
-## Segment 1
+
 We have chosen to use a clustering model of machine learning (unsupervised machine learning) because the data we are looking at has many features (76 columns after initial preprocessing) without a clear output (`y`).  So many features will make determining the right inputs and the right number of clusters difficult.  As an initial attempt at fitting to machine learning, we created an elbow curve to determine the number of appropriate clusters looking for best `K` in `KMeans` (file `simple_machine_model.ipynb`)
-
-Mostly randomly choosing a selection of inputs (Total Enrollment, Average Tuition, and Total number of Applicants), and using the 7 clusters the KMeans Elbow Curve suggested, showed the following 3D Scatter diagram
-
-![K Means Cluster 3D scatter diagram](/images/KMeansCluster3D.png)
-
 
 Having so many possible features, we thought it would be wise to use PCA (Principal Component Analysis) to cluster. (file `colleges_PCA.ipynb`) 
 - We began by using `StandardScaler` to Standardize the data
@@ -50,10 +45,11 @@ Having so many possible features, we thought it would be wise to use PCA (Princi
 - Using these new five new Principal Components (`PC1`, `PC2`, `PC3`, `PC4`, and `PC5`) we created an Elbow Curve to determine the appropriate number of clusters to fit our model with (5)
 - And then using the first three principal components (about 48% of the information) we displayed the five clusters in a 3D Scatter plot
 
-## Segment 2
-As mentioned above, the initial preprocessing still left us with 76 columns of data (features). As a team we discussed this and narrowed these 76 features down to 40 by choosing to focus on undergraduate data and narrowing the tuition and fee data.  Once the tables in the database were cleaned up to reflect these changes, we re-ran the KMeans cluster with this updated data `colleges_cleaned4.csv`.
+As mentioned above, the initial preprocessing still left us with 76 columns of data (features). As a team we discussed this and narrowed these 76 features down to 40 by choosing to focus on undergraduate data and narrowing the tuition and fee data.  Once the tables in the database were cleaned up to reflect these changes, we re-ran the KMeans cluster with this updated data `colleges.csv`.
 
-As we are using unsupervised machine learning, we are not training a model and there is not an objective function to test the performance of the algorithm.  Instead, we focused on testing the accurracy of the clusters.  To determine the best number of clusters to use, I used five methods (file `Cluster_Evaluation.ipynb`) as shown in the following table
+As we are using unsupervised machine learning, we are not training a model and there is not an objective function to test the performance of the algorithm. While real world use of unsupervised learning may not split the data into testing and training models, we needed some way to show accuracy of our model so we split the preprocessed 'clean' data into testing and training sets and ran `MachineLearning/MachineModelSplit.ipynb` 
+
+Instead, we focused on testing the accurracy of the clusters. In order to  To determine the best number of clusters to use, I used five methods (file `Cluster_Evaluation.ipynb`) as shown in the following table
 
 
 |Index   | Description   | n_clusters=2| n_clusters=3|n_clusters=4|n_clusters=5|n_clusters=6|n_clusters=7|best cluster#| Image   |
