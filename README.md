@@ -18,11 +18,11 @@
 
 
 
-# Presentation
-### U.S. College Admissions
-What Colleges/Universities are in the U.S. & how can they be grouped to compare student demographics?
+# US Colleges and University Comparison
 
-For this project, we choose to look at U.S. college admission information as it provided considerable datasets. We will be using clustering models to determine the best predictions for our data. In order to conduct this predictive modeling endeavor, we sourced our data from [Kaggle.com](https://www.kaggle.com/datasets/samsonqian/college-admissions) which featured a csv file with information from 2010 to 2014.
+There are many factors to consider when choosing a college or University.  How are schools the same?  How are they different?  How are they comparable? T
+
+For this project, we choose to look at U.S. college admission information as it provided considerable datasets. We used a clustering models to determine the best predictions for our data. In order to conduct this predictive modeling endeavor, we sourced our data from [Kaggle.com](https://www.kaggle.com/datasets/samsonqian/college-admissions) which featured a csv file with information from 2010 to 2014
 
 # Database
 ## Segment 1
