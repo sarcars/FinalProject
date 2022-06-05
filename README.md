@@ -3,7 +3,7 @@
 ### GitHub 
 
 #### files
-  - PDF of dashboard images 'Tableau_PDF.pdf'
+  - PDF of dashboard images `Tableau_PDF.pdf`
   - 
 
 #### folders
