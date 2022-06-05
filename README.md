@@ -4,25 +4,35 @@
 
 #### files
   - PDF of dashboard images `Tableau_PDF.pdf`
-  - 
 
 #### folders
 
-- **Resources**: Data files found on Kaggle.com
+- **Resources**: Data files found on Kaggle.com and files imported and generated for Machine Learning models 
   - College Admissions Data `Data-Table 1.csv`
   - Colleges and University Data `colleges_and_Universities.csv`
   - US News & World Report Rankings `colleges.csv`
+  - Cleaned and processed data for Machine Learning Model with clusterID added `colleges_cluster.csv`
+  - File created with Training data and cluster ID `colleges_train.csv`
+  - File created with Test data and cluster ID `colleges_test.csv`
+  - File created with Training and Test Data combined with cluster ID `colleges_split.csv`
+ 
 
 - **Datacleaning_Database**: This folder contains multiple jupyter notebook files that were used to reframe the data from each of the resource files.
   - Database schema `dbschema.sql`
   - Final csv file produced from pgAdmin4 `Data-Table 1.csv`
  
 
-- **MachineLearning**: Pandas notebooks showing 
-  - Splitting `Split_Cluster_Evaluation.ipynb`
+- **MachineLearning**: This folder contains multiple jupyter notebooks used to run and evaluate the Machine Learning Model
+  - Connecting Machine Model to Database `db_connection.ipynb`
+  - Early in process view of PCA for consideration `colleges_PCA.ipynb`
+  - Code used to train, test, and split the data `MachineModelSplit.ipynb`
+  - Code used to evaluate training and testing data and to evaluate importance of features used in clustering` MachineModelFeatures.ipynb`
   - Evaluation of Clusters for Full Model `Cluster_Evaluation.ipynb` 
-  - Split Model (both test and train recombined) `Split_Cluster_Evaluation.ipynb` 
-  - and Training `ModelTraining_Cluster_Evaluation.ipynb`
+  - Evaluation of Clusters for Training Model `Training_Cluster_Evaluation.ipynb` 
+  - Code used to create dendrograms for evaluation of `hierarchical clustering hierarchicalClustering.ipynb`
+  - Grid showing results of Model Cluster Evaluation to determine best number of clusters for both full and training dataset `MachineLearningClusterEvaluation.xlsx` 
+
+- **Images**: README, reports, and presentation images
 
 
 # US Colleges and University Comparison
@@ -43,33 +53,36 @@ Once cleaned, the updated pandas dataframes were subsequently exported to new .c
 
 
 # Machine Learning Model
+### Model Selection
+We have chosen to use a clustering model of machine learning (unsupervised machine learning) because the data we are looking at has many features (76 columns after initial preprocessing) without a clear output (`y`).  So many features will make determining the right inputs and the right number of clusters difficult.  As a team we discussed this and narrowed these 76 features down to 40 by choosing to focus on undergraduate data and narrowing the tuition and fee data.  Once the tables in the database were cleaned up to reflect these changes, we re-ran the KMeans cluster with this updated data and split the data into training and testing datasets  `/MachineLearning/MachineModelSplit.ipynb`.
+
+### Cluster Accuracy
+Because we used unsupervised machine learning, the accuracy measures that are available for supervised machine learning are not created in the same way.   Instead, we focused on testing the accurracy of the clusters. In order to  To determine the best number of clusters to use, we used five methods as shown in the following table
 
 
-We have chosen to use a clustering model of machine learning (unsupervised machine learning) because the data we are looking at has many features (76 columns after initial preprocessing) without a clear output (`y`).  So many features will make determining the right inputs and the right number of clusters difficult.  As an initial attempt at fitting to machine learning, we created an elbow curve to determine the number of appropriate clusters looking for best `K` in `KMeans` (file `simple_machine_model.ipynb`)
+|Index   | Description   |best cluster#| Image   |
+|   :----:   | :----:   |   :---: |   :---: |  
+| Elbow Curve     | where elbow bends towards straight |4 or 6|     ![elbow curve](/images/ElbowCurve.png)|
+| Dendrogram/Hierarchical clustering   | Highest level that captures all groups and counting the number of branches  | 4 or 5|     ![dendrogram](/images/dendrogram.png)|
+|Calinski-Harabasz Index (aka Variance Ratio Criterion| The score is higher when clusters are dense and well separated |4 or 6|           |
+|Silhouette Score| Silhouette coefficients near +1 indicate that the sample is far away from the neighboring clusters. A value of 0 indicates that the sample is on or very close to the decision boundary between two neighboring clusters and negative values indicate that those samples might have been assigned to the wrong cluster. | 4 | ![Silhouette](/images/SilhouetteAnalysis.png)|
+|Davis-Bouldin Index (DBI)| (DBI) is calculated as the average similarity of each cluster with a cluster most similar to it. The lower the average similarity is, the better the clusters are separated and the better is the result of the clustering performed.| 4 | ![Davis-Bouldin Index](/Images/FullDaviesBouldin.png)|
 
-Having so many possible features, we thought it would be wise to use PCA (Principal Component Analysis) to cluster. (file `colleges_PCA.ipynb`) 
-- We began by using `StandardScaler` to Standardize the data
-- We then initialized the PCA model to 5 components (from the original 76).  The explained variance ratio shows that these five components only encompass 58% of the information.  We will need to explore this further as we move along in the project
-- Using these new five new Principal Components (`PC1`, `PC2`, `PC3`, `PC4`, and `PC5`) we created an Elbow Curve to determine the appropriate number of clusters to fit our model with (5)
-- And then using the first three principal components (about 48% of the information) we displayed the five clusters in a 3D Scatter plot
+We evaluated both the the full data set `/MachineLearning/ClusterEvaluation.ipynb` and the training data set `/MachineLearning/Training_Cluster_Evaluation.ipynb` (see also `/MachineLearning/hierarchicalClustering.ipynb` for both full and training dendrograms).  
 
-As mentioned above, the initial preprocessing still left us with 76 columns of data (features). As a team we discussed this and narrowed these 76 features down to 40 by choosing to focus on undergraduate data and narrowing the tuition and fee data.  Once the tables in the database were cleaned up to reflect these changes, we re-ran the KMeans cluster with this updated data `colleges.csv`.
+Results of all methods can be seen on the grid  `/MachineLearning/MachineLearningClusterEvaluation.xlsx`
 
-As we are using unsupervised machine learning, we are not training a model and there is not an objective function to test the performance of the algorithm. While real world use of unsupervised learning may not split the data into testing and training models, we needed some way to show accuracy of our model so we split the preprocessed 'clean' data into testing and training sets and ran `MachineLearning/MachineModelSplit.ipynb` 
+There were a few different results, but as 4 clusters was consistently the best result in all methods for both the full data and the training data, 4 clusters was used for the Feature evaluation `MachineLearning/MachineModelFeatures`
 
-Instead, we focused on testing the accurracy of the clusters. In order to  To determine the best number of clusters to use, I used five methods (file `Cluster_Evaluation.ipynb`) as shown in the following table
+### Feature Evaluation
+As we are using unsupervised machine learning, we are not training a model. However, for this project, in order to attempt to evaluate the clustering model, we treated the assigned cluster as a classification and compared the full model data with the training and testing data `/MachineLearning/MachineModelFeatures.ipynb`.  This allowed us to create a confusion matrix showing that the original "full" cluster were very closely alligned with the clusters assigned to the training and test data 
 
+![Confusion Matrix](/Images/ConfusionMatrix.png)
 
-|Index   | Description   | n_clusters=2| n_clusters=3|n_clusters=4|n_clusters=5|n_clusters=6|n_clusters=7|best cluster#| Image   |
-|   :----:   | :----:   |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |   :---: |
-| Elbow Curve     | where elbow bends towards straight | | | | | | |4 or 6|     ![elbow curve](/images/ElbowCurve.png)|
-| Dendrogram/Hierarchical clustering   | Highest level that captures all groups and counting the number of branches  | | | | | | |4 or 5|     ![dendrogram](/images/dendrogram.png)|
-|Calinski-Harabasz Index (aka Variance Ratio Criterion| The score is higher when clusters are dense and well separated | 723.603| 995.731|1007.923|1006.470|1020.840|1012.735|4 or 6|           |
-|Silhouette Score| Silhouette coefficients near +1 indicate that the sample is far away from the neighboring clusters. A value of 0 indicates that the sample is on or very close to the decision boundary between two neighboring clusters and negative values indicate that those samples might have been assigned to the wrong cluster.| 0.51938| 0.42790|0.42242|0.43051|0.41595|0.39543|4 | ![Silhouette](/images/SilhouetteAnalysis.png)|
-|Davis-Bouldin Index (DBI)| (DBI) is calculated as the average similarity of each cluster with a cluster most similar to it. The lower the average similarity is, the better the clusters are separated and the better is the result of the clustering performed.| | | 0.774398 | | | |4 | ![Davis-Bouldin Index](/images/Davies_Bouldin_Index.png)|
+And also allowed us to see (and graph) the features in order of importance
 
+![Importance of Features](/Images/featureimportance.png)
 
-There were a few different results, but as 4 clusters was consistently the best result in all methods, our next step was to see what 4 clusters showed us using different variables for x and y (file `ModelwDifClusters.ipynb`)
 
 # Dashboard
 Dasboard in Tableau
