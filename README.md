@@ -39,7 +39,7 @@
 
 There are many factors to consider when choosing a College or University.  How are schools the same?  How are they different?  How are they comparable? 
 
-For this project, we choose to look at U.S. college admission information as it provided considerable datasets. We used a clustering models to determine the best predictions for our data. In order to conduct this predictive modeling endeavor, we sourced our data from [Kaggle.com](https://www.kaggle.com/datasets/samsonqian/college-admissions) which featured a csv file with information from 2010 to 2014
+For this project, we choose to look at U.S. college admission information as it provided considerable datasets. We used a clustering models to determine the best predictions for our data. To conduct this predictive modeling endeavor, we sourced our data from [Kaggle.com](https://www.kaggle.com/datasets/samsonqian/college-admissions) which featured a csv file with information from 2010 to 2014
 
 # Database
 ## Cleaning the Data
@@ -57,7 +57,7 @@ Once cleaned, the updated pandas dataframes were subsequently exported to new .c
 We have chosen to use a clustering model of machine learning (unsupervised machine learning) because the data we are looking at has many features (76 columns after initial preprocessing) without a clear output (`y`).  So many features will make determining the right inputs and the right number of clusters difficult.  As a team we discussed this and narrowed these 76 features down to 40 by choosing to focus on undergraduate data and narrowing the tuition and fee data.  Once the tables in the database were cleaned up to reflect these changes, we re-ran the KMeans cluster with this updated data and split the data into training and testing datasets  `/MachineLearning/MachineModelSplit.ipynb`.
 
 ### Cluster Accuracy
-Because we used unsupervised machine learning, the accuracy measures that are available for supervised machine learning are not created in the same way.   Instead, we focused on testing the accurracy of the clusters. In order to  To determine the best number of clusters to use, we used five methods as shown in the following table
+Because we used unsupervised machine learning, the accuracy measures that are available for supervised machine learning are not created in the same way.   Instead, we focused on testing the accuracy of the clusters. In order to determine the best number of clusters to use, we used five methods as shown in the following table
 
 
 |Index   | Description   |best cluster#| Image   |
@@ -75,7 +75,7 @@ Results of all methods can be seen on the grid  `/MachineLearning/MachineLearnin
 There were a few different results, but as 4 clusters was consistently the best result in all methods for both the full data and the training data, 4 clusters was used for the Feature evaluation `MachineLearning/MachineModelFeatures`
 
 ### Feature Evaluation
-As we are using unsupervised machine learning, we are not training a model. However, for this project, in order to attempt to evaluate the clustering model, we treated the assigned cluster as a classification and compared the full model data with the training and testing data `/MachineLearning/MachineModelFeatures.ipynb`.  This allowed us to create a confusion matrix showing that the original "full" cluster were very closely alligned with the clusters assigned to the training and test data 
+As we are using unsupervised machine learning, we are not training a model. However, for this project, to attempt to evaluate the clustering model, we treated the assigned cluster as a classification and compared the full model data with the training and testing data `/MachineLearning/MachineModelFeatures.ipynb`.  This allowed us to create a confusion matrix showing that the original "full" cluster were very closely aligned with the clusters assigned to the training and test data 
 
 ![Confusion Matrix](/Images/ConfusionMatrix.png)
 
@@ -85,7 +85,7 @@ And also allowed us to see (and graph) the features in order of importance
 
 
 # Dashboard
-Dasboard in Tableau
+Dashboard in Tableau
 https://public.tableau.com/app/profile/laura.zacharda.jones/viz/Colleges_Clustered_Data_6-3-22/Story1?publish=yes
 
 
