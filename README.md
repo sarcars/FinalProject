@@ -3,17 +3,17 @@
 ### GitHub 
 
 #### files
-- PDF of dashboard images 'Tableau_PDF.pdf'
-- 
+  - PDF of dashboard images 'Tableau_PDF.pdf'
+  - 
 
 #### folders
 
-- **Resources**: data files found on Kaggle.com
+- **Resources**: Data files found on Kaggle.com
   - College Admissions Data `Data-Table 1.csv`
   - Colleges and University Data 'colleges_and_Universities.csv'
   - US News & World Report Rankings 'colleges.csv'
 
-- **Datacleaning_Database**: this folder contains multiple jupyter notebook files that were used to reframe the data from each of the resource files.
+- **Datacleaning_Database**: This folder contains multiple jupyter notebook files that were used to reframe the data from each of the resource files.
   - Database schema 'dbschema.sql'
   - Final csv file produced from pgAdmin4 `Data-Table 1.csv`
  
@@ -27,7 +27,7 @@
 
 # US Colleges and University Comparison
 
-There are many factors to consider when choosing a college or University.  How are schools the same?  How are they different?  How are they comparable? 
+There are many factors to consider when choosing a College or University.  How are schools the same?  How are they different?  How are they comparable? 
 
 For this project, we choose to look at U.S. college admission information as it provided considerable datasets. We used a clustering models to determine the best predictions for our data. In order to conduct this predictive modeling endeavor, we sourced our data from [Kaggle.com](https://www.kaggle.com/datasets/samsonqian/college-admissions) which featured a csv file with information from 2010 to 2014
 
@@ -39,7 +39,7 @@ The initial data for this project came from three (3) datasets. The Data-Table 1
  - factorizing some columns to convert to numeric data
 
 ## Connecting the Data
-Once cleaned, the updated pandas dataframes were subsequently exported to new .csv files.  The relational database was created using pgAdmin4 / PostgreSQL and then hosted on Amazon Web Service (AWS).  The ERD image is stored in the images folder.
+Once cleaned, the updated pandas dataframes were subsequently exported to new .csv files.  The relational database was created using pgAdmin4 / PostgreSQL and then hosted on Amazon Web Service (AWS).  The ERD image, 'QuickDBD-ERD_Diagram2.png' is stored in the images folder.
 
 
 # Machine Learning Model
