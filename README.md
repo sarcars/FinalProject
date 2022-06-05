@@ -3,9 +3,20 @@
 ### GitHub 
 
 #### files
-
+- PDF of dashboard images 'Tableau_PDF.pdf'
+- 
 
 #### folders
+
+- **Resources**: data files found on Kaggle.com
+  - College Admissions Data `Data-Table 1.csv`
+  - Colleges and University Data 'colleges_and_Universities.csv'
+  - US News & World Report Rankings 'colleges.csv'
+
+- **Datacleaning_Database**: this folder contains multiple jupyter notebook files that were used to reframe the data from each of the resource files.
+  - Database schema 'dbschema.sql'
+  - Final csv file produced from pgAdmin4 `Data-Table 1.csv`
+ 
 
 - **MachineLearning**: Pandas notebooks showing 
   - Splitting `Split_Cluster_Evaluation.ipynb`
@@ -14,24 +25,21 @@
   - and Training `ModelTraining_Cluster_Evaluation.ipynb`
 
 
-
-
-
-
 # US Colleges and University Comparison
 
-There are many factors to consider when choosing a college or University.  How are schools the same?  How are they different?  How are they comparable? T
+There are many factors to consider when choosing a college or University.  How are schools the same?  How are they different?  How are they comparable? 
 
 For this project, we choose to look at U.S. college admission information as it provided considerable datasets. We used a clustering models to determine the best predictions for our data. In order to conduct this predictive modeling endeavor, we sourced our data from [Kaggle.com](https://www.kaggle.com/datasets/samsonqian/college-admissions) which featured a csv file with information from 2010 to 2014
 
 # Database
-## Segment 1
-In the first segment of this project, we used the main csv file as our mock database. With such a large dataset we used Pandas (used the `get.dummies` action to convert a couple of data object data columns into multiple binary data columns).  We also reduced the number of columns to create a workable file.
+## Cleaning the Data
+The initial data for this project came from three (3) datasets. The Data-Table 1.csv file served as the main datasource with the other files providing supplemental data. In order to prepare the data for analysis, we used python / pandas.  The cleaning process included:
+ - reducing the columns from >100 columns to ~40
+ - using 'get dummies' to convert some columns into binary data
+ - factorizing some columns to convert to numeric data
 
-## Segment 2
-In the second segment of this project, the true database was created by paring down the data from each of the original csv files (using Jupyter Notebook), exporting to new csv files and merging the files using multiple joins in pgAdmin. The database was then pushed to AWS. 
-
-![ERD](https://github.com/sarcars/FinalProject/blob/main/Images/QuickDBD-Free%20Diagram.png))
+## Connecting the Data
+Once cleaned, the updated pandas dataframes were subsequently exported to new .csv files.  The relational database was created using pgAdmin4 / PostgreSQL and then hosted on Amazon Web Service (AWS).  The ERD image is stored in the images folder.
 
 
 # Machine Learning Model
