@@ -39,7 +39,7 @@ The initial data for this project came from three (3) datasets. The Data-Table 1
  - factorizing some columns to convert to numeric data
 
 ## Connecting the Data
-Once cleaned, the updated pandas dataframes were subsequently exported to new .csv files.  The relational database was created using pgAdmin4 / PostgreSQL and then hosted on Amazon Web Service (AWS).  The ERD image, 'QuickDBD-ERD_Diagram2.png' is stored in the images folder.
+Once cleaned, the updated pandas dataframes were subsequently exported to new .csv files.  The relational database was created using pgAdmin4 / PostgreSQL and then hosted on Amazon Web Service (AWS).  The ERD image, (file 'QuickDBD-ERD_Diagram2.png') is stored in the images folder.
 
 
 # Machine Learning Model
