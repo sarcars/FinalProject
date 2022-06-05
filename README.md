@@ -79,7 +79,7 @@ As we are using unsupervised machine learning, we are not training a model. Howe
 
 ![Confusion Matrix](/Images/ConfusionMatrix.png)
 
-And also allowed us to see (and graph) the features in order of importance
+This also allowed us to see (and graph) the features in order of importance
 
 ![Importance of Features](/Images/featureimportance.png)
 
