@@ -10,11 +10,11 @@
 
 - **Resources**: Data files found on Kaggle.com
   - College Admissions Data `Data-Table 1.csv`
-  - Colleges and University Data 'colleges_and_Universities.csv'
-  - US News & World Report Rankings 'colleges.csv'
+  - Colleges and University Data `colleges_and_Universities.csv`
+  - US News & World Report Rankings `colleges.csv`
 
 - **Datacleaning_Database**: This folder contains multiple jupyter notebook files that were used to reframe the data from each of the resource files.
-  - Database schema 'dbschema.sql'
+  - Database schema `dbschema.sql`
   - Final csv file produced from pgAdmin4 `Data-Table 1.csv`
  
 
@@ -39,7 +39,7 @@ The initial data for this project came from three (3) datasets. The Data-Table 1
  - factorizing some columns to convert to numeric data
 
 ## Connecting the Data
-Once cleaned, the updated pandas dataframes were subsequently exported to new .csv files.  The relational database was created using pgAdmin4 / PostgreSQL and then hosted on Amazon Web Service (AWS).  The ERD image, 'QuickDBD-ERD_Diagram2.png' is stored in the images folder.
+Once cleaned, the updated pandas dataframes were subsequently exported to new .csv files.  The relational database was created using pgAdmin4 / PostgreSQL and then hosted on Amazon Web Service (AWS).  The ERD image, `QuickDBD-ERD_Diagram2.png` is stored in the images folder.
 
 
 # Machine Learning Model
