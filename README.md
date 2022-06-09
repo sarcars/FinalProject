@@ -4,6 +4,7 @@
 
 #### files
   - PDF of dashboard images `Tableau_PDF.pdf`
+  - PowerPoint copy of Final presentation `ClassPresentation.pptx`
 
 #### folders
 
@@ -93,6 +94,7 @@ https://public.tableau.com/app/profile/laura.zacharda.jones/viz/Colleges_Cluster
 # Presentation
 Presentation is in google slides doc
 https://docs.google.com/presentation/d/1g5CjUa0wOmDh8gMe49bHFKTHKxUScElyYGXSOHSmzww/edit?usp=sharing
+A copy of this presentation is also available in GitHub as `ClassPresentation.pptx`
 
 
 
